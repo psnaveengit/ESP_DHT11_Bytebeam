@@ -43,7 +43,7 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 3.	Basically, you are adding the sdk folder as a component inside the current project 
 4.	Set the WiFi SSID and password in the menuconfig or sdkconfig file
 5.	Go to the CMakeLists file inside root project directory (not the one in the main folder), and add the correct path for the SDK. An example is commented inside
-### Before Building & Flashing lets setup the Bytebeam Cloud to accepts & collect the temperature & humidity reading and then show it on dashboard 
+### Before Building & Flashing lets setup the Bytebeam Cloud to accept & collect the temperature & humidity reading and then show it on dashboard 
 6.	Now we need to add temperature & humidity fields in the bytebeam “device_shadow” stream
 7.	Click “Admin” on top right corner & then under “device_shadow” stream, add humidity & temperature as 2 separate column names. Set both Column types as Float32
 	
@@ -54,5 +54,5 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 1.	Bytebeam SDK: https://github.com/bytebeamio/esp-bytebeam-sdk
 2.	DHT11 Sensor Driver: https://github.com/UncleRus/esp-idf-lib
 3.	Bytebeam Docs: https://bytebeam.io/docs/esp-idf
-4.  Help from Bytebeam Team member: https://github.com/mayankbytebeam
+4.      Help from Bytebeam Team member: https://github.com/mayankbytebeam
 
