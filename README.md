@@ -70,9 +70,8 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 ![results](https://user-images.githubusercontent.com/104820561/211807814-6d8a973d-eea6-464a-8087-e366e81f7079.png)
 
 
-## Conclusion:
-That is the end of this project. Intention of this short tutorial is to just get you started with how to integreate bytebeam sdk with your own project.
-This doesn't cover anything in depth. There are a lot of features that Bytebeam offers. Feel free to explore and make your own projects utilizing all these features.
+## Conclusion: 
+That is the end of this project. We have just scratched the surface of what Bytebeam can do.Intention of this short tutorial is to just get you started with how to integreate bytebeam sdk with your own project. As the Project is simple, I didn't dive into code explanation. You can checkout official bytebeam docs to see APIs and how to use them. There are a lot of other cool features that Bytebeam offers which is not covered here. Feel free to explore and make your own projects utilizing all these features.
 
 
 # Credits/Acknowledgments:
