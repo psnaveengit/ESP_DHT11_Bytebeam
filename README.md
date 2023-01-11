@@ -43,7 +43,11 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 3.	Basically, you are adding the sdk folder as a component inside the current project 
 4.	Set the WiFi SSID and password in the menuconfig or sdkconfig file
 5.	Go to the CMakeLists file inside root project directory (not the one in the main folder), and add the correct path for the SDK. An example is commented inside
-6.	
+### Before Building & Flashing lets setup the Bytebeam Cloud to accepts & collect the temperature & humidity reading and then show it on dashboard 
+6.	Now we need to add temperature & humidity fields in the bytebeam “device_shadow” stream
+7.	Click “Admin” on top right corner & then under “device_shadow” stream, add humidity & temperature as 2 separate column names. Set both Column types as Float32
+	
+![stream](https://user-images.githubusercontent.com/104820561/211802073-10f49d18-55ef-430d-b8b8-83239b34db4b.png)
 
 
 # Credits/Acknowledgments:
