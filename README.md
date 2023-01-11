@@ -11,6 +11,12 @@ Checkout the SDK here: https://github.com/bytebeamio/esp-bytebeam-sdk to read mo
 1. ESP32 Dev Kit V1
 2. DHT11 Sensor Module (3 Pin Variant)
 
+## Hardware Interfacing:
+DHT11 VCC -----  ESP32 3V3\
+DHT11 GND -----  ESP32 GND\
+DHT11 DATA ----- ESP32 D23 (GPIO23)
+
+
 ## Software Setup:
 1. Windows 10
 2. Visual Studio Code + ESP IDF Extension Installed & Configured
@@ -32,7 +38,12 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 7. This example upload can be used to test whether the provisioning was proper & device can connect to the bytebeam cloud with the device_config file downloaded earlier during the provision process
 
 ## ESP DHT11 Project
-
+1.	Download my project code from this repository.
+2.	Copy the bytebeam sdk folder from inside the sdk repo -  “…esp-bytebeam-sdk/components/bytebeam_esp_sdk “  to “…ESP32_DHT11_Bytebeam/components/” folder
+3.	Basically, you are adding the sdk folder as a component inside the current project 
+4.	Set the WiFi SSID and password in the menuconfig or sdkconfig file
+5.	Go to the CMakeLists file inside root project directory (not the one in the main folder), and add the correct path for the SDK. An example is commented inside
+6.	
 
 
 
