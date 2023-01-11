@@ -57,6 +57,8 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 ![temp](https://user-images.githubusercontent.com/104820561/211803192-a8427ff8-399d-4d2b-8b67-f3e5314809ba.png)
 ![hum](https://user-images.githubusercontent.com/104820561/211803224-64754804-4ccc-470d-ab48-62eba24776c1.png)
 
+11.	Make sure to save the dashboard by clicking the save button
+![dashboard](https://user-images.githubusercontent.com/104820561/211804514-0f921c25-4b0a-492e-b01f-6e72ede61b38.png)
 
 # Credits/Acknowledgments:
 1. Bytebeam SDK: https://github.com/bytebeamio/esp-bytebeam-sdk
