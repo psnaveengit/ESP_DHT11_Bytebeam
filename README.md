@@ -50,4 +50,5 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 1.	Bytebeam SDK: https://github.com/bytebeamio/esp-bytebeam-sdk
 2.	DHT11 Sensor Driver: https://github.com/UncleRus/esp-idf-lib
 3.	Bytebeam Docs: https://bytebeam.io/docs/esp-idf
-4.  Help from Bytebeam Team member: [@mayankbytebeam]
+4.  Help from Bytebeam Team member: https://github.com/mayankbytebeam
+
