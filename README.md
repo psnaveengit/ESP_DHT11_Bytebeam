@@ -8,18 +8,18 @@ Bytebeam is a fully managed cloud platform that serves all cloud needs like devi
 Checkout the SDK here: https://github.com/bytebeamio/esp-bytebeam-sdk to read more about it.
 
 ## Hardware Used:
-ESP32 Dev Kit V1
-DHT11 Sensor Module (3 Pin Variant)
+1. ESP32 Dev Kit V1
+2. DHT11 Sensor Module (3 Pin Variant)
 
 ## Software Setup:
-Windows 10
-Visual Studio Code + ESP IDF Extension Installed & Configured
-ESP IDF Version – v4.4
-Bytebeam SDK Version – Pull this commit for v4.4: https://github.com/bytebeamio/esp-bytebeam-sdk/tree/1d50a711355298a50845aa34f77a2cd1d672bf32
+1. Windows 10
+2. Visual Studio Code + ESP IDF Extension Installed & Configured
+3. ESP IDF Version – v4.4
+4. Bytebeam SDK Version – Pull this commit for v4.4: https://github.com/bytebeamio/esp-bytebeam-sdk/tree/1d50a711355298a50845aa34f77a2cd1d672bf32
 (Latest Main Branch of Bytebeam SDK is IDF v5 compatible, but it created errors, thus used the above older commit with IDF v4.4)
 
 
-## SDK Integration:
+## SDK Test:
 1. Setup up Bytebeam cloud: https://bytebeam.io/docs/getting-started-on-bytebeam-cloud
 2. Follow this guide https://bytebeam.io/docs/setting-up-bytebeam-esp-sdk till end of Step 2 to finish Bytebeam account setup, & Provisioning of device
 3. Monitor your ESP32 & see whether device provisioning is done
@@ -28,5 +28,11 @@ Bytebeam SDK Version – Pull this commit for v4.4: https://github.com/bytebeami
 Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-bytebeam-esp-sdk#AOwgi
 ### Note 2: Make Sure you have set WiFi SSID & Password of your local router using menuconfig or by editing the sdkconfig file in the project folder
 5. Build, & Flash the example code. Monitor the Code. Also Check the Device Management Tab on your Bytebeam Cloud. 
+6. Under Device Shadow there will be text "LED is off" for "Status" 
+7. This example upload can be used to test whether the provisioning was proper & device can connect to the bytebeam cloud with the device_config file downloaded earlier during the provision process
+
+## ESP DHT11 Project
+
+
 
 
