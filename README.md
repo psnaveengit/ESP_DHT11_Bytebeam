@@ -37,7 +37,7 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 6. Under Device Shadow there will be text "LED is off" for "Status" 
 7. This example upload can be used to test whether the provisioning was proper & device can connect to the bytebeam cloud with the device_config file downloaded earlier during the provision process
 
-## ESP DHT11 Project
+## ESP DHT11 Project:
 1.	Download my project code from this repository.
 2.	Copy the bytebeam sdk folder from inside the sdk repo -  “…esp-bytebeam-sdk/components/bytebeam_esp_sdk “  to “…ESP32_DHT11_Bytebeam/components/” folder
 3.	Basically, you are adding the sdk folder as a component inside the current project 
@@ -46,4 +46,8 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 6.	
 
 
+# Credits/Acknowledgments:
+1.	Bytebeam SDK: https://github.com/bytebeamio/esp-bytebeam-sdk
+2.	DHT11 Sensor Driver: https://github.com/UncleRus/esp-idf-lib
+3.	Bytebeam Docs: https://bytebeam.io/docs/esp-idf
 
