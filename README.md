@@ -60,6 +60,21 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 11.	Make sure to save the dashboard by clicking the save button
 ![dashboard](https://user-images.githubusercontent.com/104820561/211804514-0f921c25-4b0a-492e-b01f-6e72ede61b38.png)
 
+12. Make sure to set the Dashboard Refresh Rate too. By default it may not be set and hence the dashboard will be static. Set it to Refresh every 5 Seconds.
+![dashboard2](https://user-images.githubusercontent.com/104820561/211807372-2964d8d1-dae7-4990-a1a3-effd042a3f92.png)
+
+
+13. Now you are ready to build, flash and monitor the code on to ESP32. Once done lets see the results:
+14. Results are below. I just blowed air on top of the sensor to change the readings
+
+![results](https://user-images.githubusercontent.com/104820561/211807814-6d8a973d-eea6-464a-8087-e366e81f7079.png)
+
+
+## Conclusion:
+That is the end of this project. Intention of this short tutorial is to just get you started with how to integreate bytebeam sdk with your own project.
+This doesn't cover anything in depth. There are a lot of features that Bytebeam offers. Feel free to explore and make your own projects utilizing all these features.
+
+
 # Credits/Acknowledgments:
 1. Bytebeam SDK: https://github.com/bytebeamio/esp-bytebeam-sdk
 2. DHT11 Sensor Driver: https://github.com/UncleRus/esp-idf-lib
