@@ -50,6 +50,14 @@ Make sure you have followed this properly: https://bytebeam.io/docs/setting-up-b
 ![stream](https://user-images.githubusercontent.com/104820561/211802073-10f49d18-55ef-430d-b8b8-83239b34db4b.png)
 
 
+8.	Go to Dashboard Option. Create a new dashboard. Click and open that dashboard
+9.	On top right corner, click the “Panel” option & select Line Graph
+10.	Create 2 Panels like this for Temperature & humidity, each configured as shown below 
+
+![temp](https://user-images.githubusercontent.com/104820561/211803192-a8427ff8-399d-4d2b-8b67-f3e5314809ba.png)
+![hum](https://user-images.githubusercontent.com/104820561/211803224-64754804-4ccc-470d-ab48-62eba24776c1.png)
+
+
 # Credits/Acknowledgments:
 1. Bytebeam SDK: https://github.com/bytebeamio/esp-bytebeam-sdk
 2. DHT11 Sensor Driver: https://github.com/UncleRus/esp-idf-lib
